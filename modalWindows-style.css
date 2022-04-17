@@ -1,0 +1,210 @@
+.repair {
+  display: none;
+  width: 1440px;
+  height: 810px;
+  background: url("img/modalWindows/repair.png");
+  z-index: 3;
+  position: absolute;
+  top: -639px;
+  left: 0;
+  right: 0;
+}
+
+.nav_item__repair:hover ~ .repair {
+  display: block;
+}
+
+.nav_item__weCan:hover ~ .weCan {
+  display: block;
+}
+
+.nav_item__design:hover ~ .design {
+  display: block;
+}
+
+.nav_item__renovation:hover ~ .renovation {
+  display: block;
+}
+
+.repair_promo {
+  width: 360px;
+  height: 725px;
+  color: #fff;
+  text-align: center;
+  background-color: #eb5757;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text__modal {
+  padding: 30px 35px;
+}
+
+.button__modal {
+  width: 207px;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+  border: rgba(255, 255, 255, 0.3) 1px solid;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  position: relative;
+}
+
+.button__modal::before {
+  content: "";
+  width: 20px;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  top: 18px;
+  left: -10px;
+}
+
+.button__modal:hover {
+  border-color: #fff;
+  transition: border-top 0.2s, border-right 0.3s, border-bottom 0.6s,
+    border-left 0.9s ease;
+}
+
+.button__modal:hover::after {
+  content: "";
+  width: 1px;
+  height: 19px;
+  top: 0;
+  left: -1px;
+  position: absolute;
+  background-color: #fff;
+}
+
+.links__modal {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links__modal:active {
+  color: #fff;
+}
+
+.nav_link:active {
+  color: #222;
+}
+
+.h1__modal {
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  color: #fff;
+  width: 981px;
+  margin: 64px auto 46px;
+  position: relative;
+}
+
+.repair__hidden {
+  visibility: hidden;
+}
+
+.repair_promo > h6 {
+  padding-top: 500px;
+}
+
+.invertletter__modal {
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 1.5px #fff;
+}
+
+.weCan {
+  display: none;
+  width: 1440px;
+  height: 810px;
+  background: url("img/modalWindows/weCan.png");
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 3;
+  position: absolute;
+  top: -639px;
+  left: 0;
+  right: 0;
+}
+
+.weCan_promo {
+  width: 361px;
+  height: 725px;
+  color: #fff;
+  text-align: center;
+  background-color: #219653;
+  position: absolute;
+  top: 0;
+  left: 359px;
+}
+
+.weCan__hidden {
+  visibility: hidden;
+}
+
+.weCan_promo > h6 {
+  padding-top: 500px;
+}
+
+.design {
+  display: none;
+  width: 1440px;
+  height: 810px;
+  background: url("img/modalWindows/design.png");
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 3;
+  position: absolute;
+  top: -639px;
+  left: 0;
+  right: 0;
+}
+
+.design_promo {
+  width: 361px;
+  height: 725px;
+  color: #fff;
+  text-align: center;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 0;
+  left: 719px;
+}
+
+.design__hidden {
+  visibility: hidden;
+}
+
+.design_promo > h6 {
+  padding-top: 500px;
+}
+
+.renovation {
+  display: none;
+  width: 1440px;
+  height: 810px;
+  background: url("img/modalWindows/renovation.png");
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 3;
+  position: absolute;
+  top: -639px;
+  left: 0;
+  right: 0;
+}
+
+.renovation_promo {
+  width: 361px;
+  height: 725px;
+  color: #fff;
+  text-align: center;
+  background-color: #9b51e0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.renovation__hidden {
+  visibility: hidden;
+}
+
+.renovation_promo > h6 {
+  padding-top: 500px;
+}
