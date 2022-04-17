@@ -120,7 +120,7 @@
       "exam8 exam8 exam8 exam8 exam8 exam8 exam8 exam8";
   }
 
-  .nav_item__repare:hover ~ .repare,
+  .nav_item__repair:hover ~ .repair,
   .nav_item__weCan:hover ~ .weCan,
   .nav_item__design:hover ~ .design,
   .nav_item__renovation:hover ~ .renovation {
