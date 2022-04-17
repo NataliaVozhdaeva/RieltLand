@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Gilroy";
-  src: local("Gilroy Light"), url("fonts/Gilroylight.woff2") format("woff2"),
+  src: local("Gilroy Light"), url("../fonts/Gilroylight.woff2") format("woff2"),
     url("fonts/Gilroylight.woff") format("woff"),
     url("fonts/Gilroylight.ttf") format("truetype");
   font-weight: 300;
@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: "Gilroy";
-  src: local("Gilroy ExtraBold"), url("fonts/Gilroyextrabold.woff2") format("woff2"),
+  src: local("Gilroy ExtraBold"), url("../fonts/Gilroyextrabold.woff2") format("woff2"),
     url("fonts/Gilroyextrabold.woff") format("woff"),
     url("fonts/Gilroyextrabold.ttf") format("truetype");
   font-weight: 800;
@@ -249,7 +249,7 @@ h1 {
 }
 
 .hero_content__main {
-  background: url("img/header.png");
+  background: url("../img/header.png");
 }
 
 .hero_nav {
@@ -342,55 +342,55 @@ h2::before {
 .exam1 {
   grid-area: exam1;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%),
-    rgba(0, 0, 0, 0.1) url("img/Image-1.png") center/cover;
+    rgba(0, 0, 0, 0.1) url("../img/Image-1.png") center/cover;
 }
 
 .exam2 {
   grid-area: exam2;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%),
-    rgba(0, 0, 0, 0.1) url("img/Image-2.png");
+    rgba(0, 0, 0, 0.1) url("../img/Image-2.png");
   background-size: cover;
 }
 
 .exam3 {
   grid-area: exam3;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%),
-    rgba(0, 0, 0, 0.1) url("img/Image-3.png");
+    rgba(0, 0, 0, 0.1) url("../img/Image-3.png");
   background-size: cover;
 }
 
 .exam4 {
   grid-area: exam4;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%),
-    rgba(0, 0, 0, 0.1) url("img/Image-4.png");
+    rgba(0, 0, 0, 0.1) url("../img/Image-4.png");
   background-size: cover;
 }
 
 .exam5 {
   grid-area: exam5;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%),
-    rgba(0, 0, 0, 0.1) url("img/Image-5.png");
+    rgba(0, 0, 0, 0.1) url("../img/Image-5.png");
   background-size: cover;
 }
 
 .exam6 {
   grid-area: exam6;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%),
-    rgba(0, 0, 0, 0.1) url("img/Image-6.png");
+    rgba(0, 0, 0, 0.1) url("../img/Image-6.png");
   background-size: cover;
 }
 
 .exam7 {
   grid-area: exam7;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%),
-    rgba(0, 0, 0, 0.1) url("img/Image-7.png");
+    rgba(0, 0, 0, 0.1) url("../img/Image-7.png");
   background-size: cover;
 }
 
 .exam8 {
   grid-area: exam8;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%),
-    rgba(0, 0, 0, 0.1) url("img/Image-8.png");
+    rgba(0, 0, 0, 0.1) url("../img/Image-8.png");
   background-size: cover;
 }
 

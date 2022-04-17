@@ -2,7 +2,7 @@
   display: none;
   width: 1440px;
   height: 810px;
-  background: url("img/modalWindows/repair.png");
+  background: url("../img/modalWindows/repair.png");
   z-index: 3;
   position: absolute;
   top: -639px;
@@ -117,7 +117,7 @@
   display: none;
   width: 1440px;
   height: 810px;
-  background: url("img/modalWindows/weCan.png");
+  background: url("../img/modalWindows/weCan.png");
   color: rgba(255, 255, 255, 0.7);
   z-index: 3;
   position: absolute;
@@ -149,7 +149,7 @@
   display: none;
   width: 1440px;
   height: 810px;
-  background: url("img/modalWindows/design.png");
+  background: url("../img/modalWindows/design.png");
   color: rgba(255, 255, 255, 0.7);
   z-index: 3;
   position: absolute;
@@ -181,7 +181,7 @@
   display: none;
   width: 1440px;
   height: 810px;
-  background: url("img/modalWindows/renovation.png");
+  background: url("../img/modalWindows/renovation.png");
   color: rgba(255, 255, 255, 0.7);
   z-index: 3;
   position: absolute;
